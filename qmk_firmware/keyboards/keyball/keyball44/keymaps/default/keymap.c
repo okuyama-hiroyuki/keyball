@@ -38,8 +38,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   ),
 
   [2] = LAYOUT_universal(
-    _______ , KC_NO         , KC_NO               , KC_NO                , KC_NO , KC_NO ,                                         KC_NO  , KC_NO  , KC_NO  , KC_NO  , KC_NO  , _______  ,
-    _______ , LGUI(KC_UP)   , LGUI(LCTL(KC_LEFT)) , LGUI(LCTL(KC_RIGHT)) , KC_NO , KC_NO ,                                         KC_NO  , KC_MS_BTN1  , KC_MS_BTN2, KC_LNG1  , KC_LNG2  , _______  ,
+    _______ , KC_NO         , KC_NO               , LGUI(S(KC_S))                , KC_NO , KC_NO ,                                         KC_NO  , KC_NO  , KC_NO  , KC_NO  , KC_NO  , _______  ,
+    _______ , LGUI(KC_UP)   , LGUI(LCTL(KC_LEFT)) , LGUI(LCTL(KC_RIGHT)) , KC_NO , KC_NO ,                                         KC_NO  , KC_MS_BTN1  , KC_MS_BTN2, KC_LNG2  , KC_LNG1  , _______  ,
     _______ , LGUI(KC_DOWN) , KC_NO               , KC_NO                , KC_NO , KC_NO ,                                        KC_NO,KC_NO, KC_NO   ,KC_NO,KC_NO,_______,
                   _______     , _______  , _______  ,         _______  , _______  ,                   _______   , _______  , _______       , _______  , _______
   ),
